@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aditya Muchtar</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://rajshekhar26.github.io/cleanfolio-minimal" class="link">
+          AM.
+        </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <div class="image">
+          <img class="rounded-circle" width="150" src="https://s.gravatar.com/avatar/7279df3c578bb144a8e830fd8d2bbe7baa9907d7ac11c8a6b9ec9a1514fe7a5b?s=300" alt="">
+        </div>
+        <h1>Hi, I am <span class="about__name">Aditya Muchtar.</span></h1>
+        <h2 class="about__role">A Mobile App Developer.</h2>
+        <!-- <p class="about__desc">
+          Consectetur neque sed quam molestiae consectetur nesciunt sit alias
+          Vitae libero perferendis reprehenderit optio veritatis Accusantium at
+          voluptatum cumque temporibus et Explicabo iste porro quis numquam
+          distinctio Repellendus adipisci nam perferendis amet eaque hic
+          Voluptates
+        </p> -->
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/adityamchtr/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Harmony Living</h3>
+            <p class="project__description">
+              I'm work as a freelancer mobile app developer for furniture companies in Bogor.          
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Android</li>
+            </ul>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.kumpul.harmonyliving"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>WA Langsung Tanpa Simpan Nomor</h3>
+            <p class="project__description">
+              This is my own project - 
+              WA Lagsung application (WaLa) is a tool that can be used to start a WhatsApp conversation without having to save the destination number to your phone contacts.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Android</li>
+            </ul>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.coderotodidak.wala"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Hitung Cekih</h3>
+            <p class="project__description">
+              This is my own project - 
+              Hitung Cekih is an application for players who often record scores/points at the end of game rounds.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Android</li>
+            </ul>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.hitungcekih"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="Java">
+            </div>
+            Java
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png" alt="Dart">
+            </div>
+            Dart
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png" alt="Android">
+            </div>
+            Android
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png" alt="Flutter">
+            </div>
+            Flutter
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://spring.io/img/spring.svg" alt="Spring Boot">
+            </div>
+            Spring Boot
+          </li>     
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Version Control">
+            </div>
+            Version Control
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySql">
+            </div>
+            MySql
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="Postgresql">
+            </div>
+            Postgresql
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" alt="Firebase">
+            </div>
+            Firebase
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <div>
+              <img width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/windows/windows.png" alt="Windows">
+            </div>
+            Windows
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:adityamuchtar8@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Aditya Muchtar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
