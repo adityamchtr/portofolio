@@ -19,6 +19,10 @@
   border-radius: 50%!important;
 }
 
+.rounded-icon {
+  border-radius: 20%!important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -331,7 +335,7 @@ main {
 }
 
 .skills__list {
-  max-width: 450px;
+  max-width: 600px;
   width: 95%;
   margin: 0 auto;
   display: flex;
